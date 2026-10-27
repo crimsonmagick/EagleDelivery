@@ -1,6 +1,8 @@
 # Eagle Delivery
 
-COSC 561 — Project 1 - Welby Seely
+COSC 561 Project 1.
+
+Author: Welby Seely
 
 Eagle Delivery is a simulated campus delivery robot project exploring pathfinding and reinforcement learning. The project implements A* search alongside a provided BFS baseline, as well as tabular Q-learning with epsilon-greedy exploration.
 
@@ -10,6 +12,10 @@ Three maps are used: the original EMU campus map, a detour variation, and a cust
 
 - Python 3.9+
 - NumPy, Pandas, and Matplotlib for experimental analysis and plotting if running `python3 analyze_q_learning.py`. Don't forget to set up your venv.
+
+## Project Report
+
+Project report can be found in the base directory under `cosc_561_project_1_welby_seely`.
 
 ## Running the Project
 
@@ -27,7 +33,7 @@ python3 run_project.py search --algorithm bfs --start S --goal W
 python3 run_project.py search --algorithm astar --start S --goal W
 ```
 
-Use `--map maps/emu_detour.txt` or `--map maps/welby_land.txt` to select another map.
+Use `--map maps/emu_detour.txt` or `--map maps/welby_land.txt` to select another map. `welby_land.txt` is the new custom map made for this project.
 
 ### Q-Learning Baseline Experiments
 
