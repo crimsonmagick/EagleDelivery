@@ -1,0 +1,4 @@
+task,first_block_success,final_block_success,final_block_steps_success,first_sustained_95_block_end,optimal_steps
+S-W,0.41333333333333333,1.0,22.666666666666668,75,18
+L-D,0.6533333333333333,1.0,27.373333333333335,50,22
+H-P,0.5066666666666667,1.0,20.12,75,16
